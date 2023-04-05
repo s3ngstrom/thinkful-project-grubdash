@@ -1,4 +1,4 @@
 node_modules
-qualified-attach.json
+.qualified-attach.json
 package-lock.json
 package.json
