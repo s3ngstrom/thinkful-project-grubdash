@@ -1,3 +1,4 @@
+// Error to display for an invalid method used on a route
 function methodNotAllowed(request, response, next) {
   next({
     status: 405,

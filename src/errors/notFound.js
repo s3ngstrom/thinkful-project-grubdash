@@ -1,3 +1,4 @@
+// Error to display when a path is not found
 function notFound(request, response, next) {
   next({ status: 404, message: `Path not found: ${request.originalUrl}` });
 }
